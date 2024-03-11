@@ -1,0 +1,41 @@
+* {
+    background-color: #abcdef;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.round-button {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    width: 20px; /* Adjust button width */
+    height: 20px; /* Adjust button height */
+    border-radius: 50%; /* Make it round */
+    background-color: #aaaaaa; /* Button background color */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Cursor style */
+    margin-right: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.round-button:hover {
+    background-color: #555555; /* Background color on hover */
+    color: #aaaaaa; /* Text color on hover */
+}
